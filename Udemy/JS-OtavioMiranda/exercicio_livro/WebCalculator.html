@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora da Web</title>
+  </head>
+  <body>
+    <p>
+      a:
+      <input type="text" id="a" value="" />
+    </p>
+    <p>
+      b:
+      <input type="text" id="b" value="" />
+    </p>
+    =
+    <span id="result"></span><br />
+    <input type="button" value="+" onClick="doAdd()" />
+
+    <script type="text/javascript">
+      function doAdd() {
+        let aObj = document.getElementById("a");
+        let bObj = document.getElementById("b");
+        let resultObj = document.getElementById("result");
+        let a = parseInt(aObj.value); //Converte string em inteiro
+        let b = parseInt(bObj.value);
+        resultObj.innerHTML = a + b;
+      }
+    </script>
+  </body>
+</html>

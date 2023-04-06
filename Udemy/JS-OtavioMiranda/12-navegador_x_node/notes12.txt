@@ -1,0 +1,9 @@
+# Resumo
+1. Como escrever códigos Javascript dentro do Html
+    Para inserir códigos javascript dentro do html usamos a tag: <script></script>
+
+2. Navegador Vs Node
+    O alert e o prompt não funciona quando executamos o .js pelo node mas quando executados no navegador, funcionam corretamente.
+    * alert( );
+    * prompt( );
+3. 

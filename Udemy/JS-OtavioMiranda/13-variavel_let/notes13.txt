@@ -1,0 +1,15 @@
+Ao Criar variáveis let:
+    - Não podemos usar palavras reservadas;
+    - Precisam ter nomes significativos;
+        O nome da variável precisa ter alguma indicação ao tipo de dado que ela irá armazenar.
+    - Náo pode começar com um número;
+    - É uma boa prática iniciar com letra minúscula;
+    - Não pode ter espaço;
+    - Não pode usar traço;
+    - É uma boa prática usar o "camelCase" par nomea-las;
+    - O Javascript é Case-sensitive;
+        "let Nome" é diferente de "let nome".
+    - NÃO UTILIZE VAR!!! "LET" SEMPRE!!!!
+
+    
+
