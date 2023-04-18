@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxa do garçom</title>
+  </head>
+  <body>
+    <!-- d) Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.
+
+    Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª Edição (p. 50). Novatec Editora. Edição do Kindle.  -->
+    <script>
+      const dias = Number(prompt("Quantos dias foi sua viagem?"));
+      const horas = Number(prompt("Que horas, do ultimo dia, vocês, chegaram devolta?"));
+
+      const horasTotal = (dias * 24) + horas;
+
+      alert(`A duração da viagem foi de ${horasTotal} horas.`);
+    </script>
+  </body>
+</html>
