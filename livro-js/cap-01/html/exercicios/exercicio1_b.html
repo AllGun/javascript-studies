@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 1b</title>
+  </head>
+  <body>
+    <script>
+      /*
+      b) Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta 
+      e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.
+      Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª 
+      Edição (p. 51). Novatec Editora. Edição do Kindle.  
+      */
+      const valorConta = Number(prompt("Qua foi o total da conta: "));
+      const qtdClientes = Number(prompt("Quantos clientes vão pagar a conta: "));
+      const valorCliente = valorConta / qtdClientes;
+
+      alert(`Valor da conta R$${valorConta.toFixed(2)}`);
+      alert(`Número de clientes: ${qtdClientes}`);
+      alert(`Valor por cliente R$${valorCliente.toFixed(2)}`);
+    </script>
+  </body>
+</html>

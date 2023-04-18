@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 1b</title>
+  </head>
+  <body>
+    <script>
+      /*
+      c) Elaborar um programa para uma loja, o qual leia o preço de um produto e informe 
+      as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista  
+      com 10% de desconto e o valor em 3x. 
+      Exemplo: 
+      Preço R$: 60.00 
+      À Vista R$: 54.00 
+      Ou 3x de R$: 20.00
+      Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª 
+      Edição (p. 51). Novatec Editora. Edição do Kindle.   
+      */
+      const precoProduto = Number(prompt("Qual preço do produto: "));
+      const aVista = precoProduto - (precoProduto * 0.1);
+      const parcelado3x = precoProduto / 3;
+
+      alert(`Preço R$${precoProduto.toFixed(2)}`);
+      alert(`À vista R$${aVista.toFixed(2)}`);
+      alert(`Ou em 3x de R$${parcelado3x.toFixed(2)}`);
+    </script>
+  </body>
+</html>
