@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício 1b</title>
+    <style>
+      a {
+        color: red;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+      }
+    </style>
   </head>
   <body>
+    <a href="#">Link</a>
     <script>
       /*
       d) Elaborar um programa que leia 2 notas de um aluno em uma disciplina. Calcule e
       informe a média das notas. Exemplo: 1ª Nota: 7.0 2ª Nota: 8.0 Média: 7.5
       Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª
       Edição (p. 52). Novatec Editora. Edição do Kindle. 
-      */
       const nota1 = Number(prompt("Primeira nota: "));
       const nota2 = Number(prompt("Segunda nota: "));
       const media = (nota1 + nota2) / 2;
@@ -21,6 +30,7 @@
       alert(`Primeira nota: ${nota1.toFixed(2)}`);
       alert(`Segunda nota: ${nota2.toFixed(2)}`);
       alert(`Média: ${media.toFixed(2)}`);
+      */
     </script>
   </body>
 </html>
