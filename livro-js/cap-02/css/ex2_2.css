@@ -1,0 +1,17 @@
+fieldset {
+    width: 400px;
+    text-align: left;
+}
+
+/* .first-fieldset__form label{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-fieldset__form label input{
+    display: flex;
+    height: 18px;
+    align-items: end;
+    
+    
+} */
