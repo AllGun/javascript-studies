@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo 2.3</title>
+    <link rel="stylesheet" href="../../css/ex2_3.css" />
+  </head>
+  <body>
+    <!-- b) Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x. -->
+
+    <h1>All Car 4U</h1>
+
+    <fieldset>
+      <form action="">
+        <p>
+          Veículo
+          <input type="text" id="inVeiculo" required />
+        </p>
+        <p>
+          Preço R$:
+          <input type="number" id="inPreco" required />
+        </p>
+        <input type="submit" value="Ver Promoção" />
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <p>Veículo:</p>
+      <h3 id="outResp1"></h3>
+      <p>Entrada:</p>
+      <h3 id="outResp2"></h3>
+      <p>Parcelas:</p>
+      <h3 id="outResp3"></h3>
+    </fieldset>
+
+    <script src="../../js/js_exemplos/ex2_3.js"></script>
+  </body>
+</html>
