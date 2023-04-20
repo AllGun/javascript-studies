@@ -21,3 +21,7 @@ fieldset {
   text-align: left;
   padding: 25px;
 }
+
+.second-fieldset {
+    height: 50px;
+}
