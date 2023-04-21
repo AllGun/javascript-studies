@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 2A</title>
+    <link rel="stylesheet" href="./atv_2b.css" />
+  </head>
+  <body>
+    <!-- b) Elaborar um programa para uma lan house de um aeroporto – O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por um cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.
+
+Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª Edição (pp. 79-80). Novatec Editora. Edição do Kindle.  -->
+    <center>
+      <h1>Lan House JS</h1>
+      <fieldset>
+        <form action="">
+          <label for="">
+            <p>Valor por 15min de uso R$:</p>
+            <input type="number" id="inPreco" />
+          </label>
+          <label for="">
+            <p>Tempo de uso em min:</p>
+            <input type="number" id="inTempo" />
+          </label>
+          <br /><br />
+          <input type="submit" value="Calcular valor" />
+        </form>
+      </fieldset>
+      <br />
+      <fieldset class="second-fieldset">
+        <p>Valor a pagar:</p>
+        <span id="outPreco"></span>
+      </fieldset>
+    </center>
+
+    <script src="./atv_2b.js"></script>
+  </body>
+</html>
