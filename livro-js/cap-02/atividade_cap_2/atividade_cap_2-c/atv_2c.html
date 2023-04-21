@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supermercado JS</title>
+    <link rel="stylesheet" href="./atv_2c.css" />
+  </head>
+  <body>
+    <!-- c) Um supermercado está com uma promoção – Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia descrição e preço de um produto. Após, apresente as mensagens indicando a promoção
+
+Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª Edição (p. 80). Novatec Editora. Edição do Kindle.  -->
+    <h1>Supermercado JS</h1>
+    <fieldset class="first-field">
+      <form action="" id="inForm">
+        <label for="">
+          <p>Produto:</p>
+          <input type="text" id="inProduto" />
+        </label>
+        <label for=""
+          ><p>Preço R$:</p>
+          <input type="number" id="inPreco" />
+        </label>
+        <br /><br />
+        <input type="submit" value="Ver Promoção" />
+      </form>
+    </fieldset>
+    <br />
+    <fieldset class="second-field">
+      <form id="outForm">
+        <output>
+          <p>Prduto:</p>
+          <span id="outProduto"></span>
+        </output>
+        <output>
+          <p>Preço:</p>
+          <span id="outPreco"></span>
+        </output>
+        <output>
+          <p>Promoção:</p>
+          <span id="outPromo"></span>
+        </output>
+      </form>
+    </fieldset>
+    <script src="./atv_2c.js" defer></script>
+  </body>
+</html>
