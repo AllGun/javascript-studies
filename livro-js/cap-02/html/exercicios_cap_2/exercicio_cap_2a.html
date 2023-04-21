@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../../css/exercicios_css_cap_2/exercicio_css_cap_2a.css">
+    <link
+      rel="stylesheet"
+      href="../../css/exercicios_css_cap_2/exercicio_css_cap_2a.css"
+    />
   </head>
   <body>
     <!-- a) Uma farmácia está com uma promoção – Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia descrição e preço de um medicamento. Informe o valor do produto na promoção.
@@ -17,17 +20,26 @@ Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript -
         <form action="">
           <label for="">
             <p>Medicamento:</p>
-            <input type="text" />
+            <input type="text" id="inMedicamento" />
           </label>
           <br /><br />
           <label for="">
             <p>Preço:</p>
-            <input type="number" />
+            <input type="number" id="inPreco" />
           </label>
           <br /><br />
           <input type="submit" value="Mostrar promoção" />
         </form>
       </fieldset>
+
+      <fieldset class="second-fieldset">
+        <p>Preço:</p>
+        <span id="outPreco"></span>
+        <p>Se levar 2:</p>
+        <span id="outDesconto"></span>
+      </fieldset>
     </center>
+
+    <script src="../../js/js_exercicios_cap_2/exercicio_cap_2a.js"></script>
   </body>
 </html>
