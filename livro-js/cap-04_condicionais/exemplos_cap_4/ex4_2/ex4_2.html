@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peso ideal JS</title>
+    <link rel="stylesheet" href="./ex4_2.css" />
+  </head>
+  <body>
+    <main>
+      <img src="../../img/ex4_2.jpg" alt="" />
+      <section>
+        <h1>Programa Cálculo do Peso Ideal</h1>
+        <form action="">
+          <label for="">
+            <p>Nome:</p>
+            <input type="text" id="inName" required />
+          </label>
+          <label for="" id="inSex">
+            <p>Sexo:</p>
+            <input type="radio" id="inFamale" required />
+            <p>Feminino</p>
+            <input type="radio" id="inMale" required />
+            <p>Masculino</p>
+          </label>
+          <label for="">
+            <p>Altura:</p>
+            <input type="text" id="inAltura" required />
+          </label>
+          <label for="">
+            <p>Peso:</p>
+            <input type="text" id="inPeso" required />
+          </label>
+          <br /><br />
+          <span class="btn-container">
+            <input type="submit" value="Calcular Peso Ideal" id="inSubmit" />
+            <input type="reset" value="Limpar Campos" id="inReset" />
+          </span>
+        </form>
+
+        <div>
+            <h3>Resultado</h3>
+            <p>Nome:<span id="outName"></span></p>
+            <p>Peso ideal:<span id="outPeso"></span></p>
+        </div>
+      </section>
+      <script src="./ex4_2.js"></script>
+    </main>
+  </body>
+</html>
