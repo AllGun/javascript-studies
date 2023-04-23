@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caixa Eletrônico</title>
+    <link rel="stylesheet" href="./ex4_6.css" />
+  </head>
+  <body>
+    <!-- c) Em um determinado momento do dia, apenas notas de 10, 50 e 100 estão disponíveis em um terminal de caixa eletrônico. Elaborar um programa que leia um valor de saque de um cliente, verifique sua validade (ou seja, se pode ser pago com as notas disponíveis) e informe o número mínimo de notas de 100, 50 e 10 necessárias para pagar esse saque.
+
+Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª Edição (pp. 116-117). Novatec Editora. Edição do Kindle.  -->
+    <main>
+      <img src="../../img/ex4_6.jpg" alt="" />
+      <section>
+        <h1>Programa Caixa Eletrônico</h1>
+        <form action="">
+          <label for="">
+            <p id="valor-text">Valor do saque:</p>
+            <input type="number" id="inSaque" />
+          </label>
+          <input type="submit">
+        </form>
+        <div>
+          <span>
+            <h3>Notas de R$100:</h3>
+            <p id="outNotas100">10</p>
+          </span>
+          <span>
+            <h3>Notas de R$ 50:</h3>
+            <p id="outNotas50"></p>
+          </span>
+          <span>
+            <h3>Notas de R$ 10:</h3>
+            <p id="outNotas10"></p>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <script src="./ex4_6.js"></script>
+  </body>
+</html>
