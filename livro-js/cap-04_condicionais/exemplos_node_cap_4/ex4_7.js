@@ -8,9 +8,9 @@ const peixes = Number(prompt("Número de peixes: "));
 let pagar;
 
 if (peixes <= pessoas) {
-    pagar = pessoas * 20;
+  pagar = pessoas * 20;
 } else {
-    pagar = (pessoas * 20) + ((peixes - pessoas) * 12)
+  pagar = pessoas * 20 + (peixes - pessoas) * 12;
 }
 
 console.log(`Pagar R$${pagar.toFixed(2)}`);
