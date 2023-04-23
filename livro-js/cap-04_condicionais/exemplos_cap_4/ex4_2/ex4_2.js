@@ -14,14 +14,17 @@ outForm.addEventListener("submit", (e) => {
   const altura = Number(outForm.inAltura.value);
 
   // declara a variável peso
-  let peso;
+  // let peso;
 
-  if (masculino) {
-    // se masculino
-    peso = 22 * Math.pow(altura, 2); // Math.pow eleva ao quadrado
-  } else {
-    peso = 21 * Math.pow(altura, 2);
-  }
+  // if (masculino) {
+  //   // se masculino
+  //   peso = 22 * Math.pow(altura, 2); // Math.pow eleva ao quadrado
+  // } else {
+  //   peso = 21 * Math.pow(altura, 2);
+  // }
+
+  // lógica com operador ternário torna o programa mais enxuto
+  const peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2);
 
   // apresenta a resposta
   outName.innerText = `${nome}`;

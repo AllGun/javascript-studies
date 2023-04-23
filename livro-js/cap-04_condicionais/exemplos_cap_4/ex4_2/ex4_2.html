@@ -19,14 +19,14 @@
           </label>
           <label for="" id="inSex">
             <p>Sexo:</p>
-            <input type="radio" id="inFamale" required />
-            <p>Feminino</p>
-            <input type="radio" id="inMale" required />
-            <p>Masculino</p>
+            
+            <p><input type="radio" id="inFamale" required />Feminino</p>
+            
+            <p><input type="radio" id="inMale" required />Masculino</p>
           </label>
           <label for="">
-            <p>Altura:</p>
-            <input type="text" id="inAltura" required />
+            <p>Altura (em metros):</p>
+            <input type="number" id="inAltura" min="0" step="0.1" required />
           </label>
           <label for="">
             <p>Peso:</p>
@@ -40,9 +40,9 @@
         </form>
 
         <div>
-            <h3>Resultado</h3>
-            <p>Nome:<span id="outName"></span></p>
-            <p>Peso ideal:<span id="outPeso"></span></p>
+          <h3>Resultado</h3>
+          <p>Nome:<span id="outName"></span></p>
+          <p>Peso ideal:<span id="outPeso"></span></p>
         </div>
       </section>
       <script src="./ex4_2.js"></script>
