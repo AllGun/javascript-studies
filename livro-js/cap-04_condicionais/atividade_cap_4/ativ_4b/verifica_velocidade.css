@@ -7,6 +7,7 @@ body {
 main {
   border: solid 3px #333;
   width: 650px;
+  height: 400px;
   display: flex;
 }
 
