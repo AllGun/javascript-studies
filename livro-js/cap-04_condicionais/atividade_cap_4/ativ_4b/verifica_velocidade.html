@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Verifica Velocidade</title>
-    <link rel="stylesheet" href="./verifica_velocidade.css">
-</head>
-<body>
-<main>
-    <h1>Programa Verificador de Velocidade</h1>
-</main>
+    <link rel="stylesheet" href="./verifica_velocidade.css" />
+  </head>
+  <body>
+    <!-- b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual à permitida, exiba “Sem Multa”. Se a velocidade for de até 20% maior que a permitida, exiba “Multa Leve”. E, se a velocidade for superior a 20% da velocidade permitida, exiba “Multa Grave”
+
+Iepsen, Edécio Fernando. Lógica de Programação e Algoritmos com JavaScript - 2ª Edição (p. 123). Novatec Editora. Edição do Kindle.  -->
+    <main>
+      <img src="../../img/exerc.jpg" alt="" />
+      <section>
+        <h1>Programa Verificador de Velocidade</h1>
+        <form action="">
+          <label for="">
+            <p>Velocidade Permitida:</p>
+            <input type="number" id="inVelocidade" />
+          </label>
+          <label for="">
+            <p>Velocidade do Condutor:</p>
+            <input type="number" id="inCondutor" />
+          </label>
+          <input type="submit" value="Verificar Velocidade" />
+        </form>
+        <div>
+          <h3>Situação:</h3>
+          <p id="outSituacao">Multa leve</p>
+        </div>
+      </section>
+    </main>
     <script src="./verifica_velocidade.js"></script>
-</body>
+  </body>
 </html>
