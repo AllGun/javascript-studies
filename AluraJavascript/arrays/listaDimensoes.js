@@ -13,6 +13,8 @@ Desafio - Lista com 2 dimensões
 const alunos = ["Jõa", "Juliana", "Caio", "Ana"];
 const medias = [10, 8, 7.5, 9];
 
-let listaAlunoseMedias = [alunos, medias];
+let alunosMedias = [alunos, medias];
 
-console.log(listaAlunoseMedias);
+console.log(alunosMedias);
+
+console.log(`${alunosMedias[0][0]}, sua média é ${alunosMedias[1][0]}`)
