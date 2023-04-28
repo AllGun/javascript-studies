@@ -7,22 +7,31 @@
     - Na msg indique que o aluno não foi encontrado
     */
 
-
 // procurando com function tradicional
 function procurandoNaLista(nome) {
   const alunos = ["Jõa", "Juliana", "Caio", "Ana"];
   const medias = [10, 8, 7.5, 9];
   let alunosMedias = [alunos, medias];
   if (alunosMedias[0].includes(nome)) {
-    indice = alunosMedias[0].indexOf(nome);
+    // indice = alunosMedias[0].indexOf(nome);
     return `${nome} está na lista.`;
   } else {
-    return `${nome} não está na lista.`  }
+    return `${nome} não está na lista.`;
+  }
 }
 
-console.log(procurandoNaLista("Juliana"))
+console.log(procurandoNaLista("Juliana"));
 
 console.log(procurandoNaLista("Carlos"));
 
-console.log(procurandoNaLista("Ana"))
+console.log(procurandoNaLista("Ana"));
 
+//Arrow function
+const exibeNota = (nomeAluno) => {
+  if (alunosMediaj[0].includes(nomeAluno)) {
+    let indice = alunosMedias[0].indexOf(nomeAluno);
+    return alunosMedias[0][indice] + ", sua média é " + alunosMedias[1][indice];
+  }
+};
+
+console.log(exibeNota("Ana"));
