@@ -40,6 +40,10 @@
 // console.log("===================================================");
 
 const criarUsuario = {
+  init: function (nome, email) {
+    this.nome = nome;
+    this.email = email;
+  },
   exibirInfos: function (nome) {
     return nome;
   },
@@ -49,4 +53,8 @@ const segundoUsuario = Object.create(criarUsuario);
 
 console.log(`Nome: ${segundoUsuario.exibirInfos("Juliana")}`);
 
-console.log(`criarUsuario é protótipo de segundoUsuario? ${criarUsuario.isPrototypeOf(segundoUsuario)}`);
+console.log(
+  `criarUsuario é protótipo de segundoUsuario? ${criarUsuario.isPrototypeOf(
+    segundoUsuario
+  )}`
+);
