@@ -1,3 +1,17 @@
+/**
+ * Exercício 15:
+ * Escreva um programa que verifica se uma palavra é um palíndromo.
+ *
+ * Descrição: Um palíndromo é uma palavra que tem a propriedade de
+ * poder ser lida tanto da direita para a esquerda como da esquerda
+ * para a direita. Nesse exercício, você irá criar uma função que
+ * recebe uma palavra como argumento e verifica se ela é um palíndromo.
+ *
+ * Battisti, Matheus. 200 Exercícios de JavaScript: Fortaleça suas
+ * habilidades com desafios: Domine JavaScript com exercícios
+ * interativos (Portuguese Edition) (p. 28). Edição do Kindle.
+ */
+
 // Função que verifica se uma palavra é um palíndromo
 function verificarPalindromo(palavra) {
   // Inicializa uma variável para armazenar a palavra invertida
